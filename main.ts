@@ -17,11 +17,11 @@ basic.forever(function () {
     maqueen.motorStop(maqueen.Motors.All)
     maqueen.setColor(0xff0000)
     if (Math.randomBoolean()) {
-        maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 20)
-        maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CCW, 20)
+        maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 50)
+        maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CCW, 50)
     } else {
-        maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 20)
-        maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CCW, 20)
+        maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 50)
+        maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CCW, 50)
     }
     basic.pause(randint(200, 600))
     maqueen.motorStop(maqueen.Motors.All)
